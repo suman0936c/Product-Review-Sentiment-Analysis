@@ -1,0 +1,19 @@
+# Python environment and temporary build files
+.venv/
+__pycache__/
+*.py[cod]
+build/node_modules/
+build/presentation/
+
+# Large source data and generated working data
+data/review.csv
+data/reviews.csv
+data/cleaned_reviews.csv
+data/_extracted/
+
+# Trained model artifacts can be recreated with train.py
+models/ann_model.keras
+models/tfidf_vectorizer.pkl
+
+# Notebook checkpoints
+.ipynb_checkpoints/
